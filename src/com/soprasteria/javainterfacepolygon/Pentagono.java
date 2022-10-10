@@ -30,4 +30,12 @@ public class Pentagono implements Poligono {
 		this.lato = lato;
 	}
 
+	@Override
+	public String toString() {
+		return String.format("pentagono perimetro: %.2f, area: %.2f, lato: %.2f",
+				this.calcolaPerimetro(), this.calcolaArea(), this.getLato());
+	}
+	
+	
+
 }
