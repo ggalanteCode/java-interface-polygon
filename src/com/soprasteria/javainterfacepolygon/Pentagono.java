@@ -22,4 +22,12 @@ public class Pentagono implements Poligono {
 		return (this.calcolaPerimetro() * apotema)/2;
 	}
 
+	public double getLato() {
+		return lato;
+	}
+
+	public void setLato(double lato) {
+		this.lato = lato;
+	}
+
 }

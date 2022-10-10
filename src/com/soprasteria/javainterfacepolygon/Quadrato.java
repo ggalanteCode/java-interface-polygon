@@ -21,6 +21,12 @@ public class Quadrato implements Poligono {
 		return this.lato * this.lato;
 	}
 	
-	
+	public double getLato() {
+		return lato;
+	}
+
+	public void setLato(double lato) {
+		this.lato = lato;
+	}
 
 }
